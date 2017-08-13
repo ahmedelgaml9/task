@@ -1,0 +1,59 @@
+.mask{
+	position: relative;
+}
+.images {
+	padding: 0;
+	margin: 0 auto;	
+}
+.images li img{
+	width: 100%;
+	display: block;
+}
+.images li, .specific-controls li , .base-controns li{
+	list-style: none;
+}
+.specific-controls, .base-controls{
+	margin: 10px auto;
+    color:#fff;
+    cursor:pointer;
+}
+.base-controls{
+	margin: 0;
+}
+.base-controls li{
+	position: absolute;
+	top: 50%;
+	margin-top: -50px;
+	width: 50px;
+	height: 100px;
+	z-index: 9999;
+	list-style: none;
+	padding: 0;	
+}
+.base-controls .prev{
+	background: url('../images/prev.png');
+	background-size: cover;		
+	left: 5px;
+}
+.base-controls .next{
+	background: url('../images/next.png');
+	background-size: cover;		
+	right: 5px;
+}
+.specific-controls {
+	text-align: center;
+	padding: 0;
+}
+.specific-controls li {
+	display: inline-block;
+    margin:0 3px;
+    cursor: pointer;
+	border-radius: 50%;
+    background-color: #ccc;
+	width: 15px;
+	height: 15px;
+}
+.specific-controls li.active {
+    background-color: #999;
+    color:#000;
+}

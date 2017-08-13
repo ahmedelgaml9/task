@@ -1,0 +1,82 @@
+.logo img {
+	width:auto;
+	margin-top:3px;
+}
+.move-bg {
+	background: #000 url(../intro/move-bg.jpg) repeat fixed top right;
+	background-size: cover;
+}
+.welcome-heading .main-text {
+	width: auto !important; 
+	color: #fff;
+	display: inline-block !important;
+}
+.demo-name {
+	float: left;
+	text-align: center;
+	width: 100%;
+	margin-top:20px;
+	margin-bottom:60px;
+	font:600 18px/22px 'Poppins', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.demo-name a {
+	
+	text-align:center;
+	margin:0 auto;
+	color:#222;
+	font:600 18px/22px 'Poppins', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.demo-name a:hover {
+	color:#8f8f8f;
+	text-decoration: none;
+}
+
+.portfolio-block {
+	border:6px solid #ebebeb;
+}
+.services-section .box {
+	margin-bottom:20px !important;
+	border:1px solid #ededed;
+	height:46px;
+	line-height:46px;
+	padding:0px
+}
+.services-section h3 {font: 700 12px/18px 'Lato', Georgia, "Times New Roman", Times, serif; padding:0 0 0px 65px; line-height:46px;}
+.services-section h3 .fa {font-size:16px; padding:0 15px; line-height:46px; color:#ff6d6d;}
+.services-section.style5 {padding-bottom:100px}
+.img-trans img {
+	opacity:0.7;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+.img-trans img:hover {
+	opacity:1;
+}
+a {
+	-webkit-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+.img-trans p{
+	font: 700 12px/18px 'Poppins', Georgia, "Times New Roman", Times, serif;
+	text-transform:uppercase;
+	letter-spacing:2px;
+}
+.footer-bottom span {
+	font: 600 12px/18px 'Lato', Georgia, "Times New Roman", Times, serif;
+	text-transform:uppercase;
+	letter-spacing:1px;
+}
+
+.footer-bottom span a {
+	color:#fff;
+}
+.new_label{background: red;
+    color: white;
+    padding: 2px 6px;
+    font-size: 10px;
+    position: relative;
+    top: -10px;
+    margin-left: 2px;
+    text-transform: uppercase;}
